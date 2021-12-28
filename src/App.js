@@ -7,13 +7,10 @@ export default function App() {
       <div className="container">
         <header className="App-header">Dictionary</header>
         <main className="App-main">
-        <Dictionary />
-          
+          <Dictionary />
         </main>
         <footer className="App-footer">Coded by Oksana</footer>
       </div>
     </div>
   );
 }
-
-
