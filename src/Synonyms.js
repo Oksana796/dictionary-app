@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Synonims(props) {
-  console.log(props.synon);
+  //console.log(props.synon);
   if (props.synon) {
     return (
       <ul className="Synonyms">
