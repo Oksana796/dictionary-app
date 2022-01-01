@@ -1,12 +1,23 @@
-.App-header {
-    text-align: center;
-  margin: 30px 0;
-  font-size: 20px;
-  font-weight: 500;
+body {
+  background-color: #8fbc8f;
 }
-
+a {
+  color: #6b8e23;
+}
+a:hover {
+  color: #8b4513;
+}
+.App-header {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #3d5a04;
+}
 .App-footer {
   text-align: center;
   margin: 30px 0;
-  font-size: 12px;;
+  font-size: 12px;
+  font-weight: bold;
+  color: #3d5a04;
 }

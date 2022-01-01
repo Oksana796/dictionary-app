@@ -7,8 +7,7 @@ export default function Phonetic(props) {
   return (
     <div className="Phonetic">
       <ReactAudioPlayer src={props.phone[0].audio} controls />
-      <br />
-      /{props.phone[0].text}/
+      <span>{props.phone[0].text}</span>
     </div>
   );
 }

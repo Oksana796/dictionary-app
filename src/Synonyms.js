@@ -1,6 +1,7 @@
 import React from "react";
+import "./Synonyms.css";
 
-export default function Synonims(props) {
+export default function Synonyms(props) {
   //console.log(props.synon);
   if (props.synon) {
     return (

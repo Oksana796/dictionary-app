@@ -29,10 +29,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={changeKeyword} />
-      </form>
-
+      <section>
+        <h5>What word do you want to look up?</h5>
+        <form onSubmit={search}>
+          <input type="search" onChange={changeKeyword} />
+        </form>
+      </section>
       <Result results={answer} />
     </div>
   );
